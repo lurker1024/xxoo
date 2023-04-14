@@ -1,0 +1,51 @@
+Nginx 1.20.2
+MySQL 5.6
+PHP-7.3.31
+PHP-5.6.40
+phpMyAdmin 5.2
+Redis 7.0.0
+
+网站目录指向根目录
+伪静态规则Thinkphp默认：
+location ~* (runtime|application)/{
+	return 403;
+}
+location / {
+	if (!-e $request_filename){
+		rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+	}
+}
+
+最好使用SSL证书
+数据库配置在根目录index.php：
+
+// 定义数据库类型
+define('DB_TYPE', 'mysql');
+// 定义数据库地址
+define('DB_HOST', '127.0.0.1');//数据库服务器地址，本地填写127.0.0.1  
+// 定义数据库名
+define('DB_NAME', 'jiaoyisuo');  //数据库名称
+// 定义数据库账号
+define('DB_USER', 'jiaoyisuo');    //数据库账户
+// 定义数据库密码
+define('DB_PWD', 'isPNJZnadpjYSF6F');   //数据库密码
+// 定义数据库端口
+define('DB_PORT', '3306'); 
+
+
+宝塔计划任务脚本：
+http://你的域名/home/autoexe/setwl            设置成5-10秒执行一次的计划任务
+http://你的域名/home/autoexe/setwl_ty        设置成5-10秒执行一次的计划任务
+http://你的域名/home/autoexe/autokjsy          独资矿机自动收益，每天执行一次设置一天执行一次的计划任务
+http://你的域名/home/autoexe/releasedjprofit        释放冻结的矿机收益币设置一天执行一次的计划任务
+http://你的域名/home/autoexe/autoxjtade         委托订单自动交易设置成5-10秒执行一次的计划任务
+http://你的域名/home/autoexe/authsharesjsy         共享矿机自动结算收益，设置一天执行一次的计划任务
+http://你的域名/home/autoexe/releaseissue              自动释放冻结的认购币,设置计划任务，每天执行一次
+http://你的域名/home/autoexe/hycarryout_ty         自动结算体验合约订单 设置成5-10秒执行一次的计划任务
+http://你的域名/home/autoexe/hycarryout          自动结算合约订单    设置成5-10秒执行一次的计划任务
+https://你的域名/home/autoexe/rengoubimoneyup  认购币每日增长  设置每天00：00分执行一次
+https://你的域名/home/autoexe/rengoubijiesuan      认购币满XX天，将增长的利益转到余额账户，设置每天00：00分执行一次
+https://你的域名/home/autoexe/rengoubifafang       发放认购币波动利润 （未到余额）  设置每天00：00分执行一次
+https://你的域名/home/Queue/fortrade   系统币种计算交易    每天一次
+https://你的域名/home/Queue/chart        系统币行情计算  每天一次
+

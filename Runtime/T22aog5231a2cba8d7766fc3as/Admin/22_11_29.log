@@ -1,0 +1,211 @@
+[ 2022-11-29T18:53:06+08:00 ] 159.138.52.239 /Admin/Trade/gethyorder
+NOTIC: [2] mkdir(): File exists /www/wwwroot/jiaoyisuo111.bugattl.com/ThinkPHP/Library/Think/Build.class.php 第 110 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007298s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2022-11-29T18:53:09+08:00 ] 139.5.108.135 /Admin/Trade/gethyorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006234s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2022-11-29T18:53:14+08:00 ] 159.138.52.239 /Admin/Trade/gethyorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006245s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2022-11-29T18:53:17+08:00 ] 139.5.108.135 /Admin/Trade/gethyorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005582s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2022-11-29T18:53:23+08:00 ] 159.138.52.239 /Admin/Trade/gethyorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016741s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2022-11-29T18:53:25+08:00 ] 139.5.108.135 /Admin/Trade/gethyorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.018142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020429s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tw_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/gethyorder%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `tw_menu` WHERE ( url like 'Trade/%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tw_menu` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`pid`,`title` FROM `tw_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SELECT DISTINCT  `group` FROM `tw_menu` WHERE ( pid = 5 )  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`url` FROM `tw_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 238 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '快速合约' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '币币交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `tw_menu` WHERE `group` = '机器人设置' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /www/wwwroot/jiaoyisuo111.bugattl.com/Application/Admin/Controller/AdminController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tw_hyorder` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tw_hyorder` WHERE `status` = 1 AND `tznum` = 0 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
